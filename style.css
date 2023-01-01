@@ -1,0 +1,126 @@
+* {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande";
+  padding: 0rem;
+  margin: 0rem;
+  font-weight: 700;
+}
+:root {
+  --primary: #0474ba;
+  --light: #ebebeb;
+  --dim: #00a7e1;
+  --acent: #f17720;
+}
+body {
+  background-image: url(./markus-winkler-7iSEHWsxPLw-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  backface-visibility: hidden;
+  font-size: 1.28rem;
+}
+.container {
+  display: block;
+  margin: 0.3rem 0.2rem;
+  border: solid;
+  border-radius: 17px 17px;
+  position: relative;
+  background-color: var(--light);
+  max-height: 70vh;
+  overflow: hidden;
+}
+.container__head {
+  background-color: var(--dim);
+  overflow: hidden;
+  font-size: 2rem;
+  padding-bottom: 10px;
+}
+
+.text-center {
+  text-align: center;
+  justify-content: center;
+}
+.container__subtitle {
+  margin-top: 0.5rem;
+  font-family: "Lucida Sans";
+  padding-bottom: 2rem;
+  font-size: 0.9rem;
+}
+#btn {
+  padding: 0.4rem;
+  margin: 0 auto;
+  background-color: var(--acent);
+  border: none;
+  color: var(--light);
+  border-radius: 6px;
+  width: 6rem;
+  box-shadow: var(--primary);
+}
+.can {
+  display: block;
+  margin: 0.3rem 0.2rem;
+  border: solid;
+  border-radius: 17px 17px;
+  position: relative;
+  background-color: var(--light);
+  max-height: 30vh;
+  overflow: hidden;
+  width: 60%;
+}
+
+.failure {
+  padding: 1rem;
+  display: none;
+  border: solid red;
+  width: 60%;
+  margin: auto;
+  border-radius: 20rem;
+}
+.success {
+  padding: 1rem;
+  display: none;
+  border: solid green;
+  width: 60%;
+  margin: auto;
+  border-radius: 20rem;
+}
+.d-none {
+  visibility: hidden;
+  font-size: 0;
+  width: 0px;
+  height: 0px;
+}
+#left-list {
+  float: left;
+}
+#right-list {
+  float: right;
+}
+.split {
+  display: flex;
+}
+#submit {
+  margin: 0 auto;
+  padding: 0.7rem;
+  width: 15%;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--light);
+  border-radius: 7px;
+  border: none;
+  background-color: var(--acent);
+}
+#another {
+  margin: 0 auto;
+  padding: 0.7rem;
+  width: 15%;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--light);
+  border-radius: 7px;
+  border: none;
+  background-color: var(--acent);
+  margin-bottom: 0.9rem;
+}
+body {
+  padding: 8rem;
+}
